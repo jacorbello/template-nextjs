@@ -61,6 +61,9 @@ export default function Home() {
               <li className="list-disc">Git hooks</li>
               <li className="list-disc">Storybook prototyping</li>
               <li className="list-disc">Tailwind CSS integration</li>
+              <li className="list-disc">
+                Jest unit testing with code coverage
+              </li>
             </ul>
           </div>
         </div>
