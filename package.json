@@ -17,7 +17,11 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": [
+      "prettier --write --ignore-unknown",
+      "yarn test",
+      "git add"
+    ]
   },
   "dependencies": {
     "@types/node": "18.14.6",
